@@ -1,0 +1,59 @@
+.Courses{
+    font-family: 'OpenSans Regular',sans-serif;
+    height: auto;
+    background-color: #f0f0f0;
+
+}
+.divCourse{
+    margin-top: 90px;
+    margin-left: -2%;
+    text-align: center;
+    line-height: 31px;
+    
+}
+.downCourse{
+    font-family:'Lato Regular';
+    font-size: 17.5px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.upCourse{
+   font-family:'OpenSans Regular',sans-serif;
+   font-size: 25px;
+   position: relative;
+   top:10px;
+}
+.program,.analiz,.economic,.history{
+    display: inline-block;
+    margin-left: 2%;
+    width: 540px;
+    height: 270px;
+    background-color: #e8e8e8;
+    margin-top: 20px;
+}
+
+.divCourse a{
+    margin-left: 5%;
+    margin-top: 3%;
+    color: red;
+}
+.course_Img{
+    float: right;
+    padding: 24px 24px;
+}
+.buttonCourse{
+    width: 160px;
+    height: 29px;
+    position: relative;
+    left: 40px;
+    margin-top: 20px;
+    margin-right: 10px;
+    background-color: #ba271f;
+    color: white;
+    font-family: 'OpenSans Regular',sans-serif;
+    font-size: 9.6px;
+    border: 1px solid white;
+	transition: .2s;
+}
+

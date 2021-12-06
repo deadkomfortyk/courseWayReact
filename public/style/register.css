@@ -1,0 +1,46 @@
+.Register{
+    font-family: 'OpenSans Regular',sans-serif;
+    background-color: #b4a184;
+    color: white;
+    height: auto;
+}
+.register{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+}
+.text_register{
+    font-size: 25px;
+    text-align: center;
+}
+.input_register {
+    width: 540px;
+    height: 60px;
+    margin-bottom: 30px;
+    border: 1px solid white;
+	transition: .2s;
+}
+.input_register::placeholder{
+    font-size: 25px;
+    font-family: 'Lato Regular', sans-serif;
+    margin-left: 20px;
+}
+.form_register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+.button_register{
+    width: 160px;
+    height: 60px;
+    background-color: #ba271f;
+    color: white;
+    font-family: 'OpenSans Regular',sans-serif;
+    font-size: 25px;
+	transition: .2s;
+    margin-bottom: 40px;
+}
+

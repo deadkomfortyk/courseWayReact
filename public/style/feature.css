@@ -1,0 +1,42 @@
+.Features{
+    font-family: 'OpenSans Regular',sans-serif;
+    height: auto;
+    background-color: #fffcf4;
+    margin-bottom: 40px;
+}
+.block .globusImg{
+    width: 64px;
+    height: 64px;
+}
+.mainF{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 10px;
+}
+.up{
+    font-size: 30px;
+}
+.down{ 
+    padding-top: 15px;
+    font-size: 15px;
+    line-height: 30px;
+}
+.block div{
+    display: inline-block;
+    margin-top: 20px;
+    width: 350px;
+    height: 207px;
+    text-align: center;
+    margin-left: 12%;
+    
+}
+.Features .music{
+    position: absolute;
+    left: 47%;
+    top: 950px;
+}
+.block2{
+    position: relative;
+    left: 150px;
+    
+}

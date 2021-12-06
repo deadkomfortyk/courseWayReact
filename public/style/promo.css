@@ -1,0 +1,42 @@
+.Promo{
+    background-color: #a99473;
+    font-family: 'Open Sans Light',sans-serif;
+    color: white;
+    height: 402px;
+}
+.promo_img img{
+    float: left;
+    width: 50%;
+    height: 402px;
+}
+.promo_container{
+   width: 50%;
+   float: right;
+   
+}
+.sertificate {
+    font-size: 35px;
+    margin-left: 110px;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+.lorem{
+    font-family: 'Lato Light',sans-serif;
+    font-size: 15px;
+    padding-left: 95px;
+    padding-right: 22%;
+    line-height: 30px;
+}
+.button_promo{
+    width: 260px;
+    height: 59px;
+    margin-top: 50px;
+    margin-left: 95px;
+    margin-right: 22%;
+    background-color: #ba271f;
+    color: white;
+    font-family: 'OpenSans Regular',sans-serif;
+    font-size: 21.87px;
+    border: 1px solid white;
+	transition: .2s;
+}

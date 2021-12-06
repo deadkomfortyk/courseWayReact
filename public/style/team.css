@@ -1,0 +1,48 @@
+.Team{
+    background-color: #fffcf4;
+    font-family: 'OpenSans Regular',sans-serif;
+    height: auto;
+}
+.creaters{
+    margin-top: 43px;
+    margin-bottom: 56px;
+    text-align: center;
+    font-size: 47.26px;
+}
+.MainImg{
+    width: 255px;
+}
+.NickImg{
+    width: 255px;
+    position: relative;
+    bottom: 23px;
+}
+.container_creaters div{
+    display: inline-block;
+    width: 255px;
+    font-family: 'Lato Regular', sans-serif;
+    text-align: center;
+    padding-left: 30px;
+}
+.first{
+    margin-left: 12.5%;
+}
+.name{
+    padding-top: 40px;
+    font-size: 21.72px;
+}
+.text{
+    padding-top: 10px;
+    padding-left: 2.5%;
+    padding-right: 1%;
+    padding-bottom: 22px;
+    line-height: 25px;
+    font-size: 14.5px;
+    
+}
+.imgLinks img{
+    position: relative;
+    right: 30px;
+    padding: 0 9px;
+    margin-bottom: 40px;
+}

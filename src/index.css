@@ -1,0 +1,399 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+button:hover{
+box-shadow: 0 15px 20px white;
+transform: translateY(-7px);
+}
+input:hover{
+  box-shadow: 0 15px 20px white;
+transform: translateY(-7px);;
+}
+body{
+  background-color: #fffcf4;
+  max-width: 1600px; 
+  margin: auto;
+}
+
+
+
+
+
+@media screen and (max-width:1513px){
+  nav{
+      position: relative;
+      right: 40px;
+  }
+  .f p{
+      font-size: 35px;
+  }
+  .f h1{
+      font-size: 60px;
+      margin-bottom: 25px;
+  }
+}
+@media screen and (max-width:1509px){
+       .header_logo p{
+          position: relative;
+          width: 250px;
+          right: 50px;
+      }
+      header .form_header {
+          top: -20px;
+      }
+     header .form_header input{
+          height: 60px;
+          margin-bottom: 30px;
+      }
+  
+}
+@media screen and (max-width:1423px){
+  nav{
+      position: relative;
+      right:25px;
+  }
+  .header_logo p{
+      position: relative;
+      font-size: 45px;
+      width: 190px;
+      right: 100px;
+  }
+  .f p{
+      font-size: 30px;
+  }
+  .f h1{
+      font-size: 55px;
+      margin-bottom: 25px;
+  }
+  header .form_header {
+      top: -20px;
+  }
+ header .form_header input{
+      height: 60px;
+      margin-bottom: 30px;
+  }
+  .mainF{
+      position: relative;
+      top: -75px;
+  }
+  .block{
+      position: relative;
+      right: 30px;
+      top: -75px;
+  }
+}
+@media screen and (max-width:1385px){
+  header .form_header {
+      top: -50px;
+  }
+ header .form_header input{
+      height: 60px;
+      margin-bottom: 25px;
+  }
+  .mainF{
+      position: relative;
+      top: -75px;
+  }
+  .block{
+      position: relative;
+      right: 30px;
+      top: -75px;
+  }
+}
+@media screen and (max-width:1342px){
+  nav{
+      font-size: 10px; 
+  }
+  header .form_header {
+      top: -60px;
+  }
+ header .form_header input{
+      height: 60px;
+      margin-bottom: 30px;
+  }
+
+}
+@media screen and (max-width:1327px){ 
+  nav{
+      position: absolute;
+      right: 10px;
+  }
+}
+@media screen and (max-width:1300px) {  
+  .f p{
+      font-size:30px;
+      position: relative;
+      right: 80px;
+  }
+  .f h1{
+      font-size: 55px;
+      position: relative;
+      right: 80px;
+      margin-bottom: 15px;
+  }
+  
+  .topnav.responsive{
+      position: relative;
+      top: 50px;
+      left: -50px;
+  }
+  .topnav.responsive a.icon{
+      position: absolute;
+      top: -10px;
+      right: -50px;
+  }
+  .topnav.responsive a{
+      background-color: white;
+      color:black;
+      display: block;
+      text-align: center;
+      padding: 2px 15px;
+  } 
+}
+@media screen and (max-width:1280px) {
+
+  nav{
+      position: absolute;
+      right: -50px;
+  }
+  .f p{
+      font-size:25px;
+      position: relative;
+      right: 40px;
+  }
+  .f h1{
+      font-size: 45px;
+      position: relative;
+      right: 40px;
+      margin-bottom: 15px;
+  }
+  header .form_header {
+      top: -13%;
+      right: 20%;
+  }
+  .form_header input{
+      height: 50px;
+  }
+  .mainF{
+      position: relative;
+      top: -75px;
+  }
+  .block{
+      position: relative;
+      right: 30px;
+      top: -75px;
+  }
+  .music{
+      position: relative;
+      right: 30px;
+      top: -75px;
+  }
+}
+@media screen and (max-width:1200px) {
+  nav{
+      position: absolute;
+      right: -80px;
+  }
+  header .form_header {
+      top: -15%;
+  }
+  .form_header input{
+      height: 50px;
+  }
+  .mainF{
+      position: relative;
+      top: -135px;
+  }
+  .block{
+      position: relative;
+      right: 30px;
+      top: -135px;
+  }
+  .music{
+      position: relative;
+      right: 30px;
+      top: -135px;
+  }
+}
+@media screen and (max-width:1195px){
+  nav{
+      position: absolute;
+      right: -80px;
+  }
+  header .form_header {
+      top: -15%;
+  }
+  .form_header input{
+      height: 50px;
+  }
+  .block{
+      position: relative;
+      right: 60px;
+  }
+  .music img{
+      position: absolute;
+      right: 80%;
+      bottom: 80%;
+  }
+}
+@media screen and (max-width:1138px){
+  nav{
+      position: absolute;
+      right: -80px;
+  }
+  .f p{
+      font-size:20px;
+      position: relative;
+      left: 10px;
+  }
+  .f h1{
+      font-size: 35px;
+      position: relative;
+      left: 10px;
+      margin-bottom: 15px;
+  }
+  header .form_header {
+      top: -20%;
+  }
+  header .form_header input{
+      height: 50px;
+  }
+}
+@media screen and (max-width:1121px){
+  .mainF{
+      position: relative;
+      top: -175px;
+  }
+  .block div{
+      position: relative;
+      right: 25px;
+      top: -5px;
+  }
+  .music img{
+      position: absolute;
+      right: 85%;
+      bottom: 5%;
+  }
+}
+@media screen and (max-width:1117px){
+  .music{
+     margin-left: 40px;
+     margin-top: -10%;
+  }
+  .mainF{
+      position: relative;
+      top: -250px;
+      margin-bottom: -70px;
+  }
+  .block{
+      position: relative;
+      right:10% ;
+      bottom: 40px;
+  }
+}
+@media screen and (max-width:1100px){
+
+  .topnav a{
+      display: none;
+  }
+  .topnav a.icon{
+      float: right;
+      margin-top: -30px;
+      margin-right: 50px;
+      display: block;
+      font-size: 30px;
+  }
+  .f{
+      display: none;
+  }
+  header .form_header {
+      top: -30%;
+      right: 30%;
+  }
+}
+@media screen and (max-width:944px){
+  .music{
+      display: none;
+   }
+   .block2 div{
+      position: relative;
+       right: 60%;
+       bottom: 50px;
+   }
+   .block div{
+      position: relative;
+      left: 15%;
+  }
+ 
+}
+@media screen and (max-width:900px){
+  .header_logo{
+      position: absolute;
+      left:50px;
+  }
+  header .form_header {
+      position: absolute;
+      top: -270px;
+      right: 170px;
+  }
+}
+@media screen and (max-width: 777px){
+  header .form_header {
+      display: none;
+  }
+  .mainF{
+      position: relative;
+      top: -350px;
+  }
+  .block div{
+      position: relative;
+      top: -50px;
+      left: 65px;
+  }
+}
+@media screen and (max-width:600px){
+  .block{
+      position: relative;
+      right: 150px;
+  }
+  .Harvard,.part3,.part4,.titlePartner{
+      display: none;
+  }
+  .promo_container .sertificate{
+      position: relative;
+      right: 15%;
+      top: -30px;
+  }
+  .promo_container .lorem{
+      position: relative;
+      right: 15%;
+      top: -30px;
+  }
+  .button_promo{
+      position: relative;
+      right: 25%;
+      top: -220px;
+  }
+}
+@media screen and (max-width:500px){
+  .promo_container .sertificate{
+      position: relative;
+      right: 35%;
+      top: -30px;
+  }
+  .button_promo{
+      position: relative;
+      right: 45%;
+      top: -405px;
+  } 
+  .another{
+      margin-left: 10%;
+  }
+}
